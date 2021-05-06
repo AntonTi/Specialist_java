@@ -1,8 +1,11 @@
 package com.anti.specialist;
 
-public class Main {
-    public static void main(String[] args) {
+import java.io.IOException;
 
+public class Main {
+    public static void main(String[] args) throws IOException {
+        YourName name = new YourName();
+        name.inputYourName();
     }
 
 }
