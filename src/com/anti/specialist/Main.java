@@ -4,12 +4,11 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        /*YourName name = new YourName();
-        name.inputYourName();*/
-        /*InputNumber number = new InputNumber();
-        number.inputNumber();*/
-        MatrixYourName name = new MatrixYourName();
-        name.matrixYourName("Vasya", 3,5);
+
+        Singleton st1 = Singleton.getInstance();
+        Singleton st2 = Singleton.getInstance();
+        st1.data = "Hello";
+        System.out.println(st2.data);
 
     }
 
