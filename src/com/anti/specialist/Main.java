@@ -13,8 +13,11 @@ public class Main {
         /*MultiplicationTable.multiplTable_10x10();
         MultiplicationTable.multiplTable(5, 4);*/
 
-        GuessTheNumber.guessNumber();
+        /*GuessTheNumber.guessNumber();*/
 
+        /*EnterNamesSort.enterNamesSort();*/
+
+        MaxMinAvg.maxMinAvg();
 
     }
 
